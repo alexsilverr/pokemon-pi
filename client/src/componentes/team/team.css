@@ -1,0 +1,27 @@
+
+.caja-team-home{
+  
+    background-image: url('./273289.jpg');
+    background-position: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items:flex-end;
+    min-height: 100vh;
+}
+
+.caja-team{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    gap: 20px;
+    width: 30%;
+}
+.team{
+    display: flex;
+    justify-content: center;
+}
