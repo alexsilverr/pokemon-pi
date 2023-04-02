@@ -1,0 +1,25 @@
+.boxx{
+background-image: url('./giphy.gif');
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+  /* Rellenamos el fondo */
+  min-height: 100%;
+  min-width: 800px;
+
+  /* Escalamiento proporcional */
+  width: 100%;
+  height: auto;
+
+  /* Posicionamiento */
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+.spinner{
+  display: flex;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100%;
+}

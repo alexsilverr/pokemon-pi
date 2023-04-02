@@ -1,0 +1,53 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    border: 9px  #f3f0f0;
+    background-color: rgba(10, 0, 0, 0.5);
+    
+    border: 50px;
+    gap: 9px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 20px;
+}
+.boton-pag{
+    display: flex;
+    color: black;
+    justify-content: center;
+   
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 8px;
+    height: 20px;
+}
+.page{
+    display: flex;
+    justify-content: center; 
+    border-radius: 8px;
+}
+.btn{
+    border-radius: 8px;
+}
+.caja-home{
+    
+    background-image: url('./662183.png');
+    background-position: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items:flex-end;
+    
+
+    min-height: 100vh;
+}
+
+  
